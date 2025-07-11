@@ -218,3 +218,45 @@ body {
   height: 370px;
   border-radius: 48px;
 }
+
+/* Contact */
+#contact {
+  margin: 0 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  padding: 32px 0 32px 0;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.form label {
+  font-size: 20px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form input[type="text"],
+.form input[type="email"] {
+  width: 500px;
+  height: 70px;
+  padding: 30px;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+}
+
+.form textarea{
+  width: 500px;
+  height: 170px;
+  padding: 30px;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+}
