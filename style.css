@@ -66,3 +66,26 @@ body {
   padding-top: 150px;
 }
 
+/* Action page */
+#action {
+  margin: 0px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 100px;
+  margin-bottom: 116px;
+}
+
+.details {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #25243250;
+  width: 517px;
+}
+
+.action_img img {
+  width: 403px;
+  height: 328px;
+  border-radius: 48px;
+}
