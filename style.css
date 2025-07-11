@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 50px 200px auto 200px;
+    background-image: url(Photos/Hero-bg.png);
+}
+
+.nav_bar nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_title{
+    font-family: 'Inter', sans-serif;
+    font-weight: 1000;
+    font-size: 34px;
+    color: #4E47FF;
+}
+
+.nav_link{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    background-color: #4E47FF;
+    width: 132px;
+    height: 48px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
